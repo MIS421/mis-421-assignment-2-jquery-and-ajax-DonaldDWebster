@@ -2,16 +2,61 @@
 
 <html lang="en">
 
-<head>
+<! --- AMDG --->
 
-  <link rel="stylesheet" href="./style.css">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /*body {
+            background-image: url("breakfast.jfif");
+        }*/
+    </style>
+    <!--- i left color-profile trying stop find output how stop get thead backgroudn image stop work form internal css --->
+    <!--link rel="stylesheet" href="/css/site.css" /-->
+    <! ---?? What exactly am I suppose to do when he says ""add title""?--- >
+    <title> Shmoogle Shming </title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <! --- JQuery --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+    <! --- JQuery UI Theme--->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" integrity="sha384-Nlo8b0yiGl7Dn+BgLn4mxhIIBU6We7aeeiulNCjHdUv/eKHx59s3anfSUjExbDxn" crossorigin="anonymous">
+    <! --- JQuery UI --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body>
 
-  <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+
+    <header onclick="changeBackground()">Shmoogle Shming</header>
+
+    <form id="query"> <input type="text"> </form>
+
+
+    <button id="searchButton" onclick="apiSearch()"> Search</button>
+
+    <button id="timeButton" class="vertical-center" onclick="getTime()"> Get Current Time</button>
+
+    <div id="searchResults"></div>
+
+    <div id="time"></div>
+
+    <! ---  Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site. --- >
+
+
 
 </body>
+
+<footer>
+
+    <p >Shmerms of Shmervice   </p> <p>  Shmettings</p>
+    
+</footer>
 
 </html>
